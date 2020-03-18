@@ -29,7 +29,7 @@ function App() {
             <li><Link to="/home">Home2</Link></li>
             <li><Link to="/about">About</Link></li>
           </ul>
-    
+          <a href="/about">链接</a>
           <hr/>
     
           <Route exact path="/" component={Home}/>
